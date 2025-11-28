@@ -3,6 +3,9 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
+.idea/
+*.iml
+*.class
 
 ### Eclipse ###
 .apt_generated
@@ -28,3 +31,11 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Local helper artifacts ###
+decode.py
+make_snippet.py
+view_lines.py
+snippet.txt
+Readme_decoded.txt
+report.mf
